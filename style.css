@@ -1,0 +1,203 @@
+*{
+    margin:0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+
+}
+
+#main{
+    height: 100vh;
+    width:100%;
+    background-color: black;
+}
+#navbar{
+    padding:20px  20px;
+    height: 10vh;
+    width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#nav2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:;
+}
+#nav2 img{
+    height: 50px;
+}
+#navbar #menu{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+#page1{
+    height: 90vh;
+    width: 100%;
+   
+display: flex;
+}
+#page1 #part1{
+width: 35%;
+height: 100%;
+background-color:black;
+
+}
+#page1 #part1 #para{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page1 #part3{
+    width: 35%;
+    height: 100%;
+   
+}
+#page1 #part2{
+    width: 30%;
+    height: 100%;
+   
+}
+
+
+#page1 #part1 {
+  
+   display: flex;
+ justify-content: center;
+   
+   flex-direction: column;
+   padding-left:7%;
+   gap:30px
+}
+#page1 #part1 h1{
+    font-size: 60px;
+    color: white;
+    line-height: 60px;
+ 
+}
+#page1 #part1 p{
+    color:white;
+    font-size:17px;
+   
+}
+#page1 #part1 span{
+    color: red;
+}
+button{
+    width: 25%;
+    padding: 7px 60px;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-weight: 700;
+}
+button i{
+    font-size: 20px;
+}
+#page1 p{
+    width: 80%;
+}
+#page1 #part2{
+height: 100%;
+width: 30%;
+position: relative;
+}
+ #page1  #part2 #semcircle{
+    height: 85%;
+    width: 50%;
+    background-color: yellow;
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+position: absolute;
+}
+#page1 #part2 #semcircle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+z-index: 44;
+}
+#part2 #bimg{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+
+}
+#part2 #bimg #img1{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+ position: absolute;
+ border-top-left-radius: 1000px;
+ border-top-right-radius: 1000px;
+ top: 10%;
+}
+#part2 #bimg #img2{
+    height: 120%;
+    width: 120%;
+    object-fit: cover;
+ position: absolute;
+ z-index: 99;
+ left: -45px;
+ bottom: -13px;
+ shape-margin: 500px;
+
+}
+#part3{
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+   
+}
+#part3 p{
+    width: 150%;
+}
+#part3 #cont{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.cont{
+    padding-top: 5px;
+   padding-bottom: 10px;
+    border-bottom: 1px solid white;
+   padding-right: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items:baseline;
+   width: 250px;
+   
+}
+#cont i{
+    font-size: small;
+    text-align: center;
+    
+}
+#part3 p{
+    padding-top: 5px;
+}
+#part3 .des{
+    opacity: 0.8;
+}
+#part3 #cont #cont2{
+    font-size:26px ;
+}
+#part3 #cont #cont3{
+    opacity: 0.7;
+}
